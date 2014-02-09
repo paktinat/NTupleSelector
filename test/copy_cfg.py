@@ -40,7 +40,7 @@ process.source = cms.Source ("PoolSource",
 # tell the process to only run over 100 events (-1 would mean run over
 #  everything
 process.maxEvents = cms.untracked.PSet(
-            input = cms.untracked.int32 (-1)
+            input = cms.untracked.int32 (1000)
 
 )
 

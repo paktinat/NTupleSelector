@@ -995,6 +995,7 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
 
 
     // Get all event handles and assign to members
+  /*
     result &= iEvent.getByLabel( tEcalDeadCellTriggerPrimitiveFilter, hEcalDeadCellTriggerPrimitiveFilter );
     if ( hEcalDeadCellTriggerPrimitiveFilter.isValid() ) EcalDeadCellTriggerPrimitiveFilter = *hEcalDeadCellTriggerPrimitiveFilter;
     result &= iEvent.getByLabel( tecalLaserCorrFilter, hecalLaserCorrFilter );
@@ -1547,8 +1548,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hHLTObjectPt9.isValid() ) HLTObjectPt9 = *hHLTObjectPt9;
     result &= iEvent.getByLabel( tHLTPrescale, hHLTPrescale );
     if ( hHLTPrescale.isValid() ) HLTPrescale = *hHLTPrescale;
+  */
+
     result &= iEvent.getByLabel( tHLTResults, hHLTResults );
     if ( hHLTResults.isValid() ) HLTResults = *hHLTResults;
+    
+    /*
     result &= iEvent.getByLabel( tJArea, hJArea );
     if ( hJArea.isValid() ) JArea = *hJArea;
     result &= iEvent.getByLabel( tJBeta, hJBeta );
@@ -1981,8 +1986,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hNCaloTowers.isValid() ) NCaloTowers = *hNCaloTowers;
     result &= iEvent.getByLabel( tNEBhits, hNEBhits );
     if ( hNEBhits.isValid() ) NEBhits = *hNEBhits;
+  */
+
     result &= iEvent.getByLabel( tNEles, hNEles );
     if ( hNEles.isValid() ) NEles = *hNEles;
+
+    /*
     result &= iEvent.getByLabel( tNElesTot, hNElesTot );
     if ( hNElesTot.isValid() ) NElesTot = *hNElesTot;
     result &= iEvent.getByLabel( tNGMus, hNGMus );
@@ -2001,8 +2010,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hNJets.isValid() ) NJets = *hNJets;
     result &= iEvent.getByLabel( tNJetsTot, hNJetsTot );
     if ( hNJetsTot.isValid() ) NJetsTot = *hNJetsTot;
+    */ 
+
     result &= iEvent.getByLabel( tNMus, hNMus );
     if ( hNMus.isValid() ) NMus = *hNMus;
+   
+    /*
     result &= iEvent.getByLabel( tNMusTot, hNMusTot );
     if ( hNMusTot.isValid() ) NMusTot = *hNMusTot;
     result &= iEvent.getByLabel( tNPdfs, hNPdfs );
@@ -2063,8 +2076,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hPFCHSJE.isValid() ) PFCHSJE = *hPFCHSJE;
     result &= iEvent.getByLabel( tPFCHSJEt, hPFCHSJEt );
     if ( hPFCHSJEt.isValid() ) PFCHSJEt = *hPFCHSJEt;
+    */
+
     result &= iEvent.getByLabel( tPFCHSJEta, hPFCHSJEta );
     if ( hPFCHSJEta.isValid() ) PFCHSJEta = *hPFCHSJEta;
+
+    /*
     result &= iEvent.getByLabel( tPFCHSJFlavour, hPFCHSJFlavour );
     if ( hPFCHSJFlavour.isValid() ) PFCHSJFlavour = *hPFCHSJFlavour;
     result &= iEvent.getByLabel( tPFCHSJHFEMfrac, hPFCHSJHFEMfrac );
@@ -2087,8 +2104,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hPFCHSJPhi.isValid() ) PFCHSJPhi = *hPFCHSJPhi;
     result &= iEvent.getByLabel( tPFCHSJPhofrac, hPFCHSJPhofrac );
     if ( hPFCHSJPhofrac.isValid() ) PFCHSJPhofrac = *hPFCHSJPhofrac;
+    */
+
     result &= iEvent.getByLabel( tPFCHSJPt, hPFCHSJPt );
     if ( hPFCHSJPt.isValid() ) PFCHSJPt = *hPFCHSJPt;
+
+    /*
     result &= iEvent.getByLabel( tPFCHSJPx, hPFCHSJPx );
     if ( hPFCHSJPx.isValid() ) PFCHSJPx = *hPFCHSJPx;
     result &= iEvent.getByLabel( tPFCHSJPy, hPFCHSJPy );
@@ -2113,8 +2134,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hPFCHSJtrackCountingHighEffBJetTags.isValid() ) PFCHSJtrackCountingHighEffBJetTags = *hPFCHSJtrackCountingHighEffBJetTags;
     result &= iEvent.getByLabel( tPFCHSJtrackCountingHighPurBJetTags, hPFCHSJtrackCountingHighPurBJetTags );
     if ( hPFCHSJtrackCountingHighPurBJetTags.isValid() ) PFCHSJtrackCountingHighPurBJetTags = *hPFCHSJtrackCountingHighPurBJetTags;
+    */
+
     result &= iEvent.getByLabel( tPFCHSNJets, hPFCHSNJets );
     if ( hPFCHSNJets.isValid() ) PFCHSNJets = *hPFCHSNJets;
+
+    /*
     result &= iEvent.getByLabel( tPFCNCandidates, hPFCNCandidates );
     if ( hPFCNCandidates.isValid() ) PFCNCandidates = *hPFCNCandidates;
     result &= iEvent.getByLabel( tPFCPhi, hPFCPhi );
@@ -2699,8 +2724,12 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hTauMediumMuon2Rejection.isValid() ) TauMediumMuon2Rejection = *hTauMediumMuon2Rejection;
     result &= iEvent.getByLabel( tTauMediumMuonRejection, hTauMediumMuonRejection );
     if ( hTauMediumMuonRejection.isValid() ) TauMediumMuonRejection = *hTauMediumMuonRejection;
+    */
+
     result &= iEvent.getByLabel( tTauNObjs, hTauNObjs );
     if ( hTauNObjs.isValid() ) TauNObjs = *hTauNObjs;
+
+    /*
     result &= iEvent.getByLabel( tTauNObjsTot, hTauNObjsTot );
     if ( hTauNObjsTot.isValid() ) TauNObjsTot = *hTauNObjsTot;
     result &= iEvent.getByLabel( tTauNeutralHadronIso, hTauNeutralHadronIso );
@@ -2909,7 +2938,7 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
     if ( hxSMS.isValid() ) xSMS = *hxSMS;
     result &= iEvent.getByLabel( txbarSMS, hxbarSMS );
     if ( hxbarSMS.isValid() ) xbarSMS = *hxbarSMS;
-
+    */
 
 
     int nElectrons = this->NEles;
@@ -2948,7 +2977,7 @@ NTupleSelector::filter(edm::Event& iEvent, const edm::EventSetup& iSetup)
 	lept_cond = ( nLeptons == abs( min_nleptons ) );
     }
 
-    int nJets = this->NJets ; //
+    int nJets = this->PFCHSNJets ; //
     bool jet_cond = true;
     if( this->min_njets != -100 ){
       if( min_njets > 0 )
@@ -2999,14 +3028,19 @@ NTupleSelector::beginRun(edm::Run& run, edm::EventSetup const&)
   bool result = true;
 
   // Get all run handles and assign to members
+  /*
   result &= run.getByLabel( tExtXSecLO, hExtXSecLO );
   if ( hExtXSecLO.isValid() ) ExtXSecLO = *hExtXSecLO;
   result &= run.getByLabel( tExtXSecNLO, hExtXSecNLO );
   if ( hExtXSecNLO.isValid() ) ExtXSecNLO = *hExtXSecNLO;
   result &= run.getByLabel( tHLTLabels, hHLTLabels );
   if ( hHLTLabels.isValid() ) HLTLabels = *hHLTLabels;
+  */
+
   result &= run.getByLabel( tHLTNames, hHLTNames );
   if ( hHLTNames.isValid() ) HLTNames = *hHLTNames;
+
+  /*
   result &= run.getByLabel( tIntXSec, hIntXSec );
   if ( hIntXSec.isValid() ) IntXSec = *hIntXSec;
   result &= run.getByLabel( tL1PhysMenu, hL1PhysMenu );
@@ -3089,7 +3123,7 @@ NTupleSelector::beginRun(edm::Run& run, edm::EventSetup const&)
   if ( hPileUpData.isValid() ) PileUpData = *hPileUpData;
   result &= run.getByLabel( tPileUpMC, hPileUpMC );
   if ( hPileUpMC.isValid() ) PileUpMC = *hPileUpMC;
-
+  */
   HLTIndices.clear();
 
 
