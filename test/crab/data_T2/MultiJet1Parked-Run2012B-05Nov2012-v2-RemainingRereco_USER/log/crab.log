@@ -1,0 +1,302 @@
+2014-02-09 13:46:04,189 [DEBUG] 	/dataLOCAL/CRAB_2_9_2/python/crab.py -create -CMSSW.total_number_of_events=-1 -USER.publish_data_name=V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER -USER.ui_working_dir=MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER -CMSSW.datasetpath=/MultiJet1Parked/paktinat-V03-09-01_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco-61aef9e3bbf721ce333708258d830dbb/USER -submit=all -CMSSW.number_of_jobs=10 -CMSSW.lumi_mask=../certification/json_DCSONLY.txt_latest -CMSSW.total_number_of_lumis=100 -cfg=crab_copy_data_T2.cfg -CMSSW.pycfg_params=GlobalTag=FT_P_V42C_AN4::All
+
+2014-02-09 13:46:04,190 [INFO] 	Version 2.9.2 running on Sun Feb  9 13:46:04 2014 IRST (10:16:04 UTC)
+
+crab. Working options:
+	scheduler           glite
+	job type            CMSSW
+	server              OFF
+	working directory   /dataLOCAL/paktinat/Projects/CMSSW/CMSSW_5_3_7_patch1/src/DiLeptonAnalysis/NTupleSelector/test/crab/data_T2/MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER/
+
+2014-02-09 13:46:04,190 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/paktinat/.cms_crab/allowed_releases.conf].
+2014-02-09 13:46:04,191 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/paktinat/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1f943518>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1f943758>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/paktinat/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:04,191 [DEBUG] 	/home/paktinat/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2014-02-09 13:46:04,191 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2014-02-09 13:46:05,057 [INFO] 	error detecting glite version 
+2014-02-09 13:46:05,057 [DEBUG] 	Downloading config files for WMS: http://cmsdoc.cern.ch/cms/LCG/crab/config/
+2014-02-09 13:46:05,058 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/paktinat/.cms_crab/glite_wms_CERN.conf].
+2014-02-09 13:46:05,058 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/paktinat/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1f943518>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1faaba28>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/paktinat/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:05,059 [DEBUG] 	/home/paktinat/.cms_crab/0_GET_glite_wms_CERN.conf expired, refreshing cache
+2014-02-09 13:46:05,059 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/glite_wms_CERN.conf
+	data: {}
+2014-02-09 13:46:05,287 [INFO] 	error detecting glite version 
+2014-02-09 13:46:05,288 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1faaba28>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:05,289 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1fab8200>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:05,289 [DEBUG] 	Input whitelist: 
+2014-02-09 13:46:05,289 [DEBUG] 	Input blacklist: 
+2014-02-09 13:46:05,289 [DEBUG] 	Converted whitelist: 
+2014-02-09 13:46:05,290 [DEBUG] 	Converted blacklist: 
+2014-02-09 13:46:05,290 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/paktinat/.cms_crab/myproxy_server.conf].
+2014-02-09 13:46:05,290 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/paktinat/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1f943518>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1fab8a28>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/paktinat/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:05,291 [DEBUG] 	/home/paktinat/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2014-02-09 13:46:05,291 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2014-02-09 13:46:05,487 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/paktinat/.cms_crab/site_black_list.conf].
+2014-02-09 13:46:05,488 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/paktinat/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1f943518>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1fab8a28>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/paktinat/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:05,488 [DEBUG] 	/home/paktinat/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2014-02-09 13:46:05,488 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2014-02-09 13:46:05,693 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,T1_ES,T1_FR,T1_RU,T1_TW,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-02-09 13:46:05,970 [INFO] 	proxy lifetime 997:41 is different from voms extension lifetime190:41 for proxy /tmp/x509up_u1015
+ CRAB will ask ask you create a new proxy
+2014-02-09 13:46:12,087 [INFO] 	Your proxy will expire in:
+	0 hours 00 minutes 00 seconds
+
+2014-02-09 13:46:16,958 [DEBUG] 	MyProxy delegation:
+myproxy-init -d -n -s myproxy.cern.ch
+2014-02-09 13:46:16,981 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1fab8a28>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-02-09 13:46:16,982 [DEBUG] 	/home/paktinat/.cms_sitedbcache/0_GET_people.json expired, refreshing cache
+2014-02-09 13:46:16,982 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/people
+	data: {}
+2014-02-09 13:46:20,016 [DEBUG] 	Linux new-cms-computing 2.6.18-348.1.1.el5 #1 SMP Thu Jan 24 13:25:42 CET 2013 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+Linux new-cms-computing 2.6.18-348.1.1.el5 #1 SMP Thu Jan 24 13:25:42 CET 2013 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+   CMSSW.datasetpath : /MultiJet1Parked/paktinat-V03-09-01_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco-61aef9e3bbf721ce333708258d830dbb/USER
+   CMSSW.dbs_url : http://cmsdbsprod.cern.ch/cms_dbs_ph_analysis_02/servlet/DBSServlet
+   CMSSW.get_edm_output : 1
+   CMSSW.lumi_mask : ../certification/json_DCSONLY.txt_latest
+   CMSSW.number_of_jobs : 10
+   CMSSW.pset : ../../copy_cfg.py
+   CMSSW.pycfg_params : GlobalTag=FT_P_V42C_AN4::All
+   CMSSW.total_number_of_events : -1
+   CMSSW.total_number_of_lumis : 100
+   CRAB.cfg : crab_copy_data_T2.cfg
+   CRAB.create : 
+   CRAB.jobtype : cmssw
+   CRAB.scheduler : glite
+   CRAB.submit : all
+   CRAB.use_server : 0
+   GRID.proxy_server : myproxy.cern.ch
+   GRID.rb : CERN
+   GRID.retry_count : 2
+   GRID.virtual_organization : cms
+   USER.copy_data : 1
+   USER.dbs_url_for_publication : https://cmsdbsprod.cern.ch:8443/cms_dbs_ph_analysis_02_writer/servlet/DBSServlet
+   USER.publish_data : 1
+   USER.publish_data_name : V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER
+   USER.storage_element : T3_IR_IPM
+   USER.ui_working_dir : MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER
+End of used properties.
+
+2014-02-09 13:46:20,815 [DEBUG] 	CMSSW::__init__
+2014-02-09 13:46:20,817 [DEBUG] 	Scram::Scram() version is 2
+2014-02-09 13:46:20,817 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-02-09 13:46:20,818 [DEBUG] 	Downloading file [https://cmstags.cern.ch/tc/] to [/home/paktinat/.cms_crab/ReleasesXML].
+2014-02-09 13:46:20,818 [DEBUG] 	Service initialised ({'endpoint': 'https://cmstags.cern.ch/tc/', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_crab', 'basepath': '/tc/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'https://cmstags.cern.ch/tc/', 'timeout': 20, 'cachepath': '/home/paktinat/.cms_crab', 'cacheduration': 0.5, 'host': 'cmstags.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1f943518>, 'type': 'txt/csv', 'conn': <httplib.HTTPSConnection instance at 0x1fe88170>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmstags.cern.ch, basepath: /tc/ (text/html)
+	 cache: /home/paktinat/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:20,818 [DEBUG] 	/home/paktinat/.cms_crab/0_GET_ReleasesXML expired, refreshing cache
+2014-02-09 13:46:20,819 [DEBUG] 	getData: 
+	url: /tc/ReleasesXML
+	data: {}
+2014-02-09 13:46:22,570 [INFO] 	WARNING: CMSSW_5_3_7_patch1 on slc5_amd64_gcc462 is not among supported releases listed at https://cmstags.cern.ch/tc/ReleasesXML .Submission may fail.
+2014-02-09 13:46:22,571 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1fe4dbd8>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:22,571 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1fe88170>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:22,571 [DEBUG] 	Input whitelist: 
+2014-02-09 13:46:22,572 [DEBUG] 	Input blacklist: 
+2014-02-09 13:46:22,572 [DEBUG] 	Converted whitelist: 
+2014-02-09 13:46:22,572 [DEBUG] 	Converted blacklist: 
+2014-02-09 13:46:23,058 [INFO] 	Contacting Data Discovery Services ...
+2014-02-09 13:46:23,059 [INFO] 	Accessing DBS at: http://cmsdbsprod.cern.ch/cms_dbs_ph_analysis_02/servlet/DBSServlet
+2014-02-09 13:46:23,369 [DEBUG] 	Set of input parameters used for DBS query: ['retrive_block', 'retrive_run', 'retrive_lumi']
+2014-02-09 13:46:27,877 [DEBUG] 	Datatype is data
+2014-02-09 13:46:27,882 [DEBUG] 	DLS interface: DLS_TYPE_DBS Server http://cmsdbsprod.cern.ch/cms_dbs_ph_analysis_02/servlet/DBSServlet
+2014-02-09 13:46:28,266 [DEBUG] 	sites are ['se1.particles.ipm.ac.ir', 't3se01.psi.ch']
+2014-02-09 13:46:28,266 [INFO] 	Requested (A)DS /MultiJet1Parked/paktinat-V03-09-01_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco-61aef9e3bbf721ce333708258d830dbb/USER has 1 block(s).
+2014-02-09 13:46:28,266 [DEBUG] 	Job splitting method: LumiBased
+2014-02-09 13:46:28,267 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1fafd290>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:28,267 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x1fadbe60>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:46:28,267 [DEBUG] 	Input whitelist: 
+2014-02-09 13:46:28,268 [DEBUG] 	Input blacklist: 
+2014-02-09 13:46:28,268 [DEBUG] 	Converted whitelist: 
+2014-02-09 13:46:28,268 [DEBUG] 	Converted blacklist: 
+2014-02-09 13:46:28,268 [DEBUG] 	List of blocks and used locations (SE):
+2014-02-09 13:46:28,269 [DEBUG] 	/MultiJet1Parked/paktinat-V03-09-01_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco-61aef9e3bbf721ce333708258d830dbb/USER#db77835c-f03d-4732-9abc-1420c600f5ed : ['t3se01.psi.ch', 'se1.particles.ipm.ac.ir']
+2014-02-09 13:46:28,269 [DEBUG] 	Splitting by Lumi
+2014-02-09 13:46:29,340 [INFO] 	Each job will process about 10 lumis.
+2014-02-09 13:46:29,361 [DEBUG] 	Job 1 will run on 6 files and 14 lumis 
+2014-02-09 13:46:29,362 [DEBUG] 	Job 2 will run on 4 files and 10 lumis 
+2014-02-09 13:46:29,362 [DEBUG] 	Job 3 will run on 4 files and 16 lumis 
+2014-02-09 13:46:29,363 [DEBUG] 	Job 4 will run on 4 files and 11 lumis 
+2014-02-09 13:46:29,363 [DEBUG] 	Job 5 will run on 3 files and 11 lumis 
+2014-02-09 13:46:29,363 [DEBUG] 	Job 6 will run on 4 files and 10 lumis 
+2014-02-09 13:46:29,364 [DEBUG] 	Job 7 will run on 2 files and 15 lumis 
+2014-02-09 13:46:29,364 [DEBUG] 	Job 8 will run on 4 files and 12 lumis 
+2014-02-09 13:46:29,364 [DEBUG] 	Job 9 will run on 1 files and 1 lumis 
+2014-02-09 13:46:29,365 [INFO] 	Requested number of lumis reached.
+2014-02-09 13:46:29,365 [INFO] 	9 jobs created to run on 100 lumis
+2014-02-09 13:46:29,432 [DEBUG] 	PsetManipulator::__init__: PSet file = ../../copy_cfg.py
+2014-02-09 13:46:29,534 [DEBUG] 	(test) edmOutputDict = {'MyOutputFile.root': {'selectEvents': ['filter'], 'dataset': None}}
+2014-02-09 13:46:29,534 [DEBUG] 	(test) filter_dict for multi =  {'MyOutputFile.root': None}
+2014-02-09 13:46:29,534 [DEBUG] 	(test) var_filter for multi =  {"MyOutputFile.root": null}
+2014-02-09 13:46:29,535 [INFO] 	Adding MyOutputFile.root (from PoolOutputModule) to list of output files
+2014-02-09 13:46:29,632 [DEBUG] 	Exe /public/V_CMSSW64/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_7/bin/slc5_amd64_gcc462/cmsRun to be tarred
+2014-02-09 13:46:29,706 [DEBUG] 	lib /dataLOCAL/paktinat/Projects/CMSSW/CMSSW_5_3_7_patch1/lib to be tarred
+2014-02-09 13:46:45,243 [DEBUG] 	data RecoParticleFlow/PFProducer/data to be tarred
+2014-02-09 13:46:45,507 [DEBUG] 	data DiLeptonAnalysis/NTupleProducer/data to be tarred
+2014-02-09 13:47:02,275 [DEBUG] 	data RecoTauTag/RecoTau/data to be tarred
+2014-02-09 13:47:03,272 [DEBUG] 	data JetMETCorrections/Type1MET/data to be tarred
+2014-02-09 13:47:03,338 [DEBUG] 	data DPGAnalysis/Skims/data to be tarred
+2014-02-09 13:47:03,482 [DEBUG] 	data RecoMET/METFilters/data to be tarred
+2014-02-09 13:47:03,589 [DEBUG] 	data Muon/MuonAnalysisTools/data to be tarred
+2014-02-09 13:47:17,367 [DEBUG] 	data EventFilter/HcalRawToDigi/data to be tarred
+2014-02-09 13:47:17,795 [DEBUG] 	data EGamma/EGammaAnalysisTools/data to be tarred
+2014-02-09 13:47:17,812 [DEBUG] 	data h2gglobe/VertexAnalysis/data to be tarred
+2014-02-09 13:47:18,864 [DEBUG] 	data CondFormats/JetMETObjects/data to be tarred
+2014-02-09 13:47:20,155 [DEBUG] 	data GeneratorInterface/Pythia6Interface/data to be tarred
+2014-02-09 13:47:20,349 [DEBUG] 	data PhysicsTools/PatUtils/data to be tarred
+2014-02-09 13:47:22,151 [DEBUG] 	Creator: JobType CMSSW created
+2014-02-09 13:47:22,151 [DEBUG] 	Creator: total # of jobs = 9
+2014-02-09 13:47:22,151 [DEBUG] 	Creator constructor finished
+2014-02-09 13:47:24,549 [DEBUG] 	parseRange_ all
+2014-02-09 13:47:24,561 [DEBUG] 	Scram::Scram() version is 2
+2014-02-09 13:47:24,561 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-02-09 13:47:24,562 [DEBUG] 	Creator::run() called
+2014-02-09 13:47:24,563 [DEBUG] 	Scram::Scram() version is 2
+2014-02-09 13:47:24,563 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-02-09 13:47:24,698 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x207bf7a0>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-02-09 13:47:25,241 [DEBUG] 	CheckLength of LFN and User DatasetName
+2014-02-09 13:47:25,241 [DEBUG] 	max length for complete LFN is 500 characters, max length for primary dataset is 100 characters
+2014-02-09 13:47:25,241 [DEBUG] 	PrimaryDataset = MultiJet1Parked
+2014-02-09 13:47:25,241 [DEBUG] 	len_primary = 15
+2014-02-09 13:47:25,242 [DEBUG] 	ProcessedDataset = V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER
+2014-02-09 13:47:25,242 [DEBUG] 	len(ProcessedDataset) = 76
+2014-02-09 13:47:25,242 [DEBUG] 	forced_path = /store/user/
+2014-02-09 13:47:25,242 [DEBUG] 	len(forced_path) = 12
+2014-02-09 13:47:25,259 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20b0a3b0>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-02-09 13:47:25,716 [DEBUG] 	user = paktinat
+2014-02-09 13:47:25,716 [DEBUG] 	len_user_name = 8
+2014-02-09 13:47:25,716 [DEBUG] 	lfnbase = /store/user/paktinat/MultiJet1Parked/V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER
+2014-02-09 13:47:25,716 [DEBUG] 	len(lfnbase) = 113
+2014-02-09 13:47:26,541 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x207bfb00>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-02-09 13:47:27,939 [INFO] 	Checking remote location
+2014-02-09 13:47:28,503 [DEBUG] 	protocol = srm-lcg
+endpoint = srm://se1.particles.ipm.ac.ir:8446/srm/managerv2?SFN=/dpm/particles.ipm.ac.ir/home/cms/store/user/paktinat/MultiJet1Parked/V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER/535b992507d5139cbc6a77798346b423/
+
+2014-02-09 13:47:29,530 [DEBUG] 	Command:	unset LD_LIBRARY_PATH; unset GLITE_ENV_SET; export PATH=/usr/bin:/bin; source /etc/profile; source /usr/libexec/grid-env.sh ; lcg-ls -d -b -D srmv2 srm://se1.particles.ipm.ac.ir:8446/srm/managerv2?SFN=/dpm/particles.ipm.ac.ir/home/cms/store/user/paktinat/MultiJet1Parked/V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER/535b992507d5139cbc6a77798346b423/
+2014-02-09 13:47:29,531 [DEBUG] 	ExitCode:	1
+2014-02-09 13:47:29,531 [DEBUG] 	Output:	/dpm/particles.ipm.ac.ir/home/cms/store/user/paktinat/MultiJet1Parked/V03-09-01_Reduced_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER/535b992507d5139cbc6a77798346b423/: [SE][Ls][SRM_INVALID_PATH] No such file or directory
+
+2014-02-09 13:47:29,619 [INFO] 	Creating 9 jobs, please wait...
+2014-02-09 13:47:29,620 [DEBUG] 	Creation Time: 5.05772709846
+2014-02-09 13:47:29,620 [INFO] 	Total of 9 jobs created.
+
+2014-02-09 13:47:29,620 [DEBUG] 	Submitter::run() called
+2014-02-09 13:47:29,632 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20424098>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:47:29,632 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20424170>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:47:29,632 [DEBUG] 	Input whitelist: 
+2014-02-09 13:47:29,633 [DEBUG] 	Input blacklist: 
+2014-02-09 13:47:29,633 [DEBUG] 	Converted whitelist: 
+2014-02-09 13:47:29,633 [DEBUG] 	Converted blacklist: 
+2014-02-09 13:47:29,634 [DEBUG] 	nsjobs -1
+2014-02-09 13:47:29,634 [DEBUG] 	Total jobs 9
+2014-02-09 13:47:29,645 [DEBUG] 	nj_list [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2014-02-09 13:47:29,691 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=paktinat/CN=609741/CN=Saeid Paktinat Mehdiabadi 
+2014-02-09 13:47:29,714 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20424200>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-02-09 13:47:30,275 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20743638>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-02-09 13:47:30,848 [DEBUG] 	Submission DashBoard Pre-Submission report: {'ApplicationVersion': 'CMSSW_5_3_7_patch1', 'taskId': 'paktinat_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_USER_iw423m', 'resubmitter': 'user', 'tool': 'crab', 'vo': 'cms', 'tool_ui': 'new-cms-computing', 'JSToolVersion': '2.9.2', 'user': 'paktinat', 'scheduler': 'glite', 'taskType': 'analysis', 'CMSUser': 'paktinat', 'jobId': 'TaskMeta', 'datasetFull': '/MultiJet1Parked/paktinat-V03-09-01_MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco-61aef9e3bbf721ce333708258d830dbb/USER', 'exe': 'cmsRun', 'GridName': '/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=paktinat/CN=609741/CN=Saeid Paktinat Mehdiabadi', 'SubmissionType': 'direct'}
+2014-02-09 13:47:30,849 [INFO] 	Checking available resources...
+2014-02-09 13:47:30,876 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20b02098>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:47:30,877 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20b02290>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:47:30,877 [DEBUG] 	Input whitelist: 
+2014-02-09 13:47:30,877 [DEBUG] 	Input blacklist: TAPE, srm-cms.cern.ch, T1_ES, T1_FR, T1_RU, T1_TW, cmsdca2.fnal.gov, T2_PK_NCP, T3_US_Vanderbilt_EC2
+
+2014-02-09 13:47:31,331 [DEBUG] 	Converted whitelist: 
+2014-02-09 13:47:31,331 [DEBUG] 	Converted blacklist: ce11.pic.es, srm-cms.cern.ch, ce07.pic.es, ce02.jinr-t1.ru, cccreamceli05.in2p3.fr, ce10.pic.es, ce08.pic.es, ce01.jinr-t1.ru, cccreamceli02.in2p3.fr, TAPE, cccreamceli06.in2p3.fr, se2.accre.vanderbilt.edu, ce09.pic.es, cmsdca2.fnal.gov, pcncp04.ncp.edu.pk, cream01.grid.sinica.edu.tw
+2014-02-09 13:47:31,331 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x20785878>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:47:31,332 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/paktinat/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/paktinat/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1f943518>, 'conn': <httplib.HTTPSConnection instance at 0x207bfcb0>}, 'logger': <logging.Logger instance at 0x1f943518>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/paktinat/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-02-09 13:47:31,332 [DEBUG] 	Input whitelist: 
+2014-02-09 13:47:31,332 [DEBUG] 	Input blacklist: TAPE, srm-cms.cern.ch, T1_ES, T1_FR, T1_RU, T1_TW, cmsdca2.fnal.gov, T2_PK_NCP, T3_US_Vanderbilt_EC2
+
+2014-02-09 13:47:31,727 [DEBUG] 	Converted whitelist: 
+2014-02-09 13:47:31,728 [DEBUG] 	Converted blacklist: ce11.pic.es, srm-cms.cern.ch, ce07.pic.es, ce02.jinr-t1.ru, cccreamceli05.in2p3.fr, ce10.pic.es, ce08.pic.es, ce01.jinr-t1.ru, cccreamceli02.in2p3.fr, TAPE, cccreamceli06.in2p3.fr, se2.accre.vanderbilt.edu, ce09.pic.es, cmsdca2.fnal.gov, pcncp04.ncp.edu.pk, cream01.grid.sinica.edu.tw
+2014-02-09 13:47:31,864 [DEBUG] 	Istantiate SchedSession: Traceback (most recent call last):
+  File "/dataLOCAL/CRAB_2_9_2/python/Boss.py", line 86, in schedSession
+    self.session =  BossLiteAPISched( common.bossSession, self.schedulerConfig)
+  File "/dataLOCAL/CRAB_2_9_2/external/ProdCommon/BossLite/API/BossLiteAPISched.py", line 85, in __init__
+    self.schedConfig['name'], self.schedConfig
+  File "/dataLOCAL/CRAB_2_9_2/external/ProdCommon/BossLite/Scheduler/Scheduler.py", line 47, in __init__
+    raise SchedulerError(e.__class__.__name__, str(e))
+SchedulerError: ImportError
+
+         missing glite environment.
+         Try export PYTHONPATH=$PYTHONPATH:$GLITE_LOCATION/lib
+         No module named wmproxymethods
+
+2014-02-09 13:47:31,864 [DEBUG] 	Unexpected exception executing List Match : Traceback (most recent call last):
+  File "/dataLOCAL/CRAB_2_9_2/python/Boss.py", line 142, in listMatch
+    sites = self.schedSession().getSchedulerInterface().lcgInfo(tags, voTags, seList=dest, blacklist=blackL, whitelist=whiteL, full=isFull)
+  File "/dataLOCAL/CRAB_2_9_2/python/Boss.py", line 90, in schedSession
+    raise CrabException('Scheduler Session: '+str(e))
+CrabException: Scheduler Session: ImportError
+
+         missing glite environment.
+         Try export PYTHONPATH=$PYTHONPATH:$GLITE_LOCATION/lib
+         No module named wmproxymethods
+
+2014-02-09 13:47:31,865 [DEBUG] 	ERROR: Unexpected exception executing List Match : Traceback (most recent call last):
+  File "/dataLOCAL/CRAB_2_9_2/python/Boss.py", line 142, in listMatch
+    sites = self.schedSession().getSchedulerInterface().lcgInfo(tags, voTags, seList=dest, blacklist=blackL, whitelist=whiteL, full=isFull)
+  File "/dataLOCAL/CRAB_2_9_2/python/Boss.py", line 90, in schedSession
+    raise CrabException('Scheduler Session: '+str(e))
+CrabException: Scheduler Session: ImportError
+
+         missing glite environment.
+         Try export PYTHONPATH=$PYTHONPATH:$GLITE_LOCATION/lib
+         No module named wmproxymethods
+
+
