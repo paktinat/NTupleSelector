@@ -14,16 +14,16 @@ process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(True))
 
 process.load("DiLeptonAnalysis.NTupleSelector.NTupleSelector_cff")
 ## MultiJet
-process.NTupleSelector.min_HT = 350.0
-process.NTupleSelector.min_njets = 4
-process.NTupleSelector.HLTPaths = ['HLT_QuadJet80_v*'
-                                   ,'HLT_SixJet45_v*']
+#process.NTupleSelector.min_HT = 350.0
+#process.NTupleSelector.min_njets = 4
+#process.NTupleSelector.HLTPaths = ['HLT_QuadJet80_v*'
+#                                   ,'HLT_SixJet45_v*']
 
 
 ## MultiJet1Parked
-#process.NTupleSelector.min_HT = 300.0
-#process.NTupleSelector.min_njets = 4
-#process.NTupleSelector.HLTPaths = ['HLT_QuadJet50_v1','HLT_QuadJet50_v2','HLT_QuadJet50_v3','HLT_QuadJet50_v5']
+process.NTupleSelector.min_HT = 300.0
+process.NTupleSelector.min_njets = 4
+process.NTupleSelector.HLTPaths = ['HLT_QuadJet50_v*']
 
 
 
