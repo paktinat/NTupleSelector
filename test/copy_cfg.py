@@ -47,7 +47,7 @@ process.maxEvents = cms.untracked.PSet(
 # Tell the process what filename to use to save the output
 process.Out = cms.OutputModule("PoolOutputModule",
          SelectEvents   = cms.untracked.PSet( SelectEvents = cms.vstring('filter') ),
-         fileName = cms.untracked.string ("MyOutputFile.root")
+         fileName = cms.untracked.string ("NTulpeSelector_data.root")
 )
 
 process.filter = cms.Path(process.NTupleSelector)
